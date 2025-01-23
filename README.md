@@ -10,10 +10,10 @@ and keybindings that I am most productive with.
 
 ### Plugins included
 
-#### Plugin Manager
+- #### Plugin Manager
 
-#### Treesitter
+- #### Treesitter
 
-#### LSPs
+- #### LSPs
 
 ### Org Mode

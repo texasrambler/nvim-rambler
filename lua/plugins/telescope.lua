@@ -37,8 +37,7 @@ return {
       keymap.set("n", "<leader>fs", builtin.live_grep, {desc = "Find string in pwd"})
       keymap.set("n", "<leader>fc", builtin.grep_string, {desc = "Find string under cursor in pwd"})
       keymap.set("n", "<leader>ft", "<cmd>TodoTelescope<cr>", {desc = "Find todos"})
-      keymap.set('n', '<leader>sd', builtin.diagnostics, { desc = 'Find Diagnostics' })
-      keymap.set('n', '<leader>sr', builtin.resume, { desc = 'Find Resume' })
+      keymap.set('n', '<leader>fd', builtin.diagnostics, { desc = 'Find Diagnostics' })
       keymap.set('n', '<leader><leader>', builtin.buffers, { desc = 'Find existing buffers' })
    end,
 }
